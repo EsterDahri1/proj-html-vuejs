@@ -54,7 +54,7 @@ body {
       font-size: 13px;
 
       a {
-        color: black;
+        color: $food_dark;
       }
 
       a:hover {
