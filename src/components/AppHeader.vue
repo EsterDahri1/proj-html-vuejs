@@ -18,6 +18,7 @@ export default {
                             <span class="text-capitalize">
                                 <a href="#" class="text-decoration-none">download app</a>
                             </span>
+                            <span class="iOS">iOS</span>
                         </li>
                         <li class="m-1 ps-2 pe-2">
                             <span class="">
@@ -139,6 +140,18 @@ header {
             svg {
                 fill: $food_warning;
             }
+        }
+
+        .iOS {
+            border-radius: 3px;
+            font-size: 9.8px;
+            letter-spacing: 0.2px;
+            line-height: 9.8px;
+            margin: 0px 0px 0px 7.35px;
+            padding: 3.43px 5.39px;
+            text-align: center;
+            color: white;
+            background-color: $food_warning;
         }
     }
 
