@@ -1,6 +1,10 @@
 <script>
+import AppLogo from './AppLogo.vue';
 export default {
-    name: 'AppHeader'
+    name: 'AppHeader',
+    components: {
+        AppLogo
+    }
 }
 </script>
 
@@ -22,9 +26,7 @@ export default {
                         </li>
                     </ul>
                 </div>
-                <div id="logo" class="text-center">
-                    <img class="m-1" height="120px" src="../assets/img/avada-food-logo-2x.png" alt="">
-                </div>
+                <AppLogo />
                 <div id="social" class="d-flex justify-content-end">
                     <a href="#" class="ps-2 pe-2 fs-5">
                         <svg xmlns="http://www.w3.org/2000/svg" height="1em"
@@ -132,10 +134,6 @@ header {
     #interactWithUs,
     #social {
         width: 30%;
-    }
-
-    #logo {
-        width: 40%;
     }
 
     nav {
