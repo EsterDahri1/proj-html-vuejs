@@ -9,7 +9,7 @@
         <div height="50px" class="social">
           <div>
             <span class="text-capitalize">download app</span>
-            <span class="text-capitalize">Advertise with us</span>
+            <span class="text-capitalize">advertise with us</span>
           </div>
           <div>
 
