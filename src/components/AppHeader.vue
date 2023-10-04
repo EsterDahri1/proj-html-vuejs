@@ -35,49 +35,49 @@ export default {
             <div>
                 <nav>
                     <ul class="list-unstyled d-flex align-items-center justify-content-center">
-                        <li>
+                        <li class="ps-4">
                             <a class="text-capitalize text-decoration-none text-center fs-6" href="#">
                                 <span>
                                     Home
                                 </span>
                             </a>
                         </li>
-                        <li>
+                        <li class="ps-4">
                             <a class="text-capitalize text-decoration-none text-center fs-6" href="#">
                                 <span>
                                     Recipes
                                 </span>
                             </a>
                         </li>
-                        <li>
+                        <li class="ps-4">
                             <a class="text-capitalize text-decoration-none text-center fs-6" href="#">
                                 <span>
                                     Places
                                 </span>
                             </a>
                         </li>
-                        <li>
+                        <li class="ps-4">
                             <a class="text-capitalize text-decoration-none text-center fs-6" href="#">
                                 <span>
                                     Blog
                                 </span>
                             </a>
                         </li>
-                        <li>
+                        <li class="ps-4">
                             <a class="text-capitalize text-decoration-none text-center fs-6" href="#">
                                 <span>
                                     about
                                 </span>
                             </a>
                         </li>
-                        <li>
+                        <li class="ps-4">
                             <a class="text-capitalize text-decoration-none text-center fs-6" href="#">
                                 <span>
                                     contact
                                 </span>
                             </a>
                         </li>
-                        <li>
+                        <li class="ps-4">
                             <a class="text-capitalize text-decoration-none text-center fs-6" href="#">
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" height="1em"

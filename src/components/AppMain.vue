@@ -9,6 +9,14 @@ export default {
         <div class="container d-flex align-items-center justify-content-center">
             <div class="todayPick">
                 <button class="btn text-uppercase text-white">Today's picks</button>
+                <h1 class="pt-3">
+                    <a href="#" class="text-decoration-none">
+                        Food Corner: Top Japanese Restaurants for Sushi
+                    </a>
+                </h1>
+                <p class="text-center pt-3">
+                    March 25, 2019
+                </p>
             </div>
         </div>
     </div>
@@ -43,7 +51,7 @@ export default {
     background-position: 10%;
 
     .container {
-        padding-top: 200px;
+        padding-top: 150px;
 
         .todayPick {
             background-color: white;
@@ -66,11 +74,28 @@ export default {
                 border-radius: 5px;
                 position: absolute;
                 bottom: 90%;
-                left: 37%;
+                left: 40%;
                 font-size: 14px;
                 font-weight: 400;
                 padding: 10px 20px;
             }
+
+            h1 {
+                font-family: 'Vidaloka';
+                font-size: 45px;
+                letter-spacing: -0.675px;
+                text-align: center;
+
+                a {
+                    color: $food_dark;
+                }
+
+                a:hover {
+                    color: $food_warning;
+                }
+            }
+
+
         }
     }
 }
