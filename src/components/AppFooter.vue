@@ -8,8 +8,8 @@ export default {
     <footer>
         <div class="links">
             <div class="container">
-                <div class="row p-0">
-                    <div class="col-3">
+                <div class="row g-2 text-nowrap justify-content-evenly align-items-start">
+                    <div class="col-2">
                         <div>
                             <img src="../assets/img/avada-food-logo-mob-2x-200x87.png" alt="" class="">
                             <div class="card-body">
@@ -19,7 +19,7 @@ export default {
                         </div>
                     </div>
                     <div class="vr"></div>
-                    <div class="col-3">
+                    <div class="col-2">
                         <nav>
                             <ul class="list-unstyled d-flex flex-column align-items-start justify-content-start">
                                 <li>
@@ -61,17 +61,17 @@ export default {
                         </nav>
                     </div>
                     <div class="vr"></div>
-                    <div class="col-3">
+                    <div class="col-2">
                         <h6 class="text-uppercase">contact us</h6>
                     </div>
                     <div class="vr"></div>
-                    <div class="col-3">
-                        <h6 class="text-uppercase">contact us</h6>
+                    <div class="col-2">
+                        <h6 class="text-uppercase">get our app</h6>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="copyright text-center">
+        <div class="copyright text-center pt-4">
             <p>
                 &copy; Copyright 2012 - 2020 |
                 <a class="text-decoration-none text-capitalize" href="#">
@@ -120,9 +120,14 @@ footer {
     }
 
     .vr {
-        border-left: 1px solid $food_grey;
+        border-left: 1px dashed $food_grey;
         border-radius: 30px;
-        padding: 0;
+        padding: 3px;
+        background-color: transparent;
+    }
+
+    h6 {
+        color: $food_warning;
     }
 }
 </style>
