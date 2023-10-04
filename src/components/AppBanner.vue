@@ -6,7 +6,7 @@ export default {
 
 <template>
     <div id="banner">
-        <div class="row">
+        <div class="row g-0">
             <div class="col-3">
                 <img src="../assets/img/Yogurt-Nan-400x263.jpg" alt="">
             </div>
@@ -23,6 +23,10 @@ export default {
     </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
+
+img {
+    height: 250px;
+}
 </style>
