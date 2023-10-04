@@ -1,9 +1,11 @@
 <script>
 import AppJumbo from './AppJumbo.vue';
+import AppBanner from './AppBanner.vue';
 export default {
     name: 'AppMain',
     components: {
         AppJumbo,
+        AppBanner,
     }
 }
 </script>
@@ -25,9 +27,7 @@ export default {
     <section id="subscription">
 
     </section>
-    <div id="banner">
-
-    </div>
+    <AppBanner />
 </template>
 
 <style lang="scss">
