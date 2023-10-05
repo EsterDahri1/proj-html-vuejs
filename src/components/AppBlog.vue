@@ -30,7 +30,7 @@ export default {
                 </div>
             </div>
             <div>
-                <div class="row">
+                <div class="row gx-5">
                     <div class="col-7">
                         <AppArticles />
                     </div>
