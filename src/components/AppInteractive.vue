@@ -70,6 +70,47 @@ export default {
             </svg>
         </a>
     </div>
+    <div class="d-flex align-items-center mt-3 justify-content-evenly">
+        <h5 class="text-capitalise p-2">Popular</h5>
+        <div class="vr"></div>
+        <h5 class="text-capitalise p-2">Recent</h5>
+    </div>
+    <ul class=" mt-3 list-unstyled">
+        <li class="d-flex align-items-center justify-content-center">
+            <img src="../assets/img/single-post-img3-66x66.jpg" alt="">
+            <div class="ps-3">
+                <a class="text-decoration-none text-black" href="##">
+                    <h5>
+                        Food Corner: Top Japanese Restaurants for Sushi
+                    </h5>
+                </a>
+                <span>March 25th, 2019</span>
+            </div>
+        </li>
+        <li class="d-flex align-items-center justify-content-center">
+            <img src="../assets/img/single-post-img3-66x66.jpg" alt="">
+            <div class="ps-3">
+                <a class="text-decoration-none text-black" href="##">
+                    <h5>
+                        Food Corner: Top Japanese Restaurants for Sushi
+                    </h5>
+                </a>
+                <span>March 25th, 2019</span>
+            </div>
+        </li>
+        <li class="d-flex align-items-center justify-content-center">
+            <img src="../assets/img/single-post-img3-66x66.jpg" alt="">
+            <div class="ps-3">
+                <a class="text-decoration-none text-black" href="##">
+                    <h5>
+                        Food Corner: Top Japanese Restaurants for Sushi
+                    </h5>
+                </a>
+                <span>March 25th, 2019</span>
+            </div>
+        </li>
+    </ul>
+    <img class="mt-3" src="../assets/img/twitter.png" alt="">
 </template>
 
 <style lang="scss" scoped>
@@ -155,6 +196,19 @@ input {
         svg {
             fill: $food-grey;
         }
+    }
+}
+
+.vr {
+    border-left: 1px dashed $food_grey;
+    border-radius: 30px;
+    padding: 3px;
+    background-color: transparent;
+}
+
+li {
+    img {
+        border-radius: 50%;
     }
 }
 </style>
