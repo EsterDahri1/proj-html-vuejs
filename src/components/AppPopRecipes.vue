@@ -16,8 +16,8 @@ export default {
                 </div>
                 <div class="row">
                     <div class="col-6 pe-4">
-                        <div class="card">
-                            <img src="../assets/img/Yogurt-Nan-600x395.jpg" class="card-img-top" alt="...">
+                        <div class="card border-0 rounded-0">
+                            <img src="../assets/img/Yogurt-Nan-600x395.jpg" class="card-img-top rounded-0" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
@@ -61,7 +61,7 @@ export default {
     </section>
 </template>
 
-<style lang="scss" scope>
+<style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
 
 .titleDesc {
@@ -78,5 +78,9 @@ export default {
         font-size: 17px;
         color: $food-grey;
     }
+}
+
+.card {
+    height: 862px;
 }
 </style>
