@@ -13,10 +13,10 @@ export default {
                     non nunc lacinia lobortis.
                 </p>
             </div>
-            <div class="collection">
-                <div class="row">
-                    <div class="col-3">
-                        <div class="card">
+            <div class="collection pb-5">
+                <div class="row g-5">
+                    <div class="col-3 d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="card p-4 border-0 rounded-0">
                             <div class="img-card-top">
                                 <img src="../assets/img/drinks-recipes.png" alt="">
                             </div>
@@ -25,8 +25,8 @@ export default {
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="card">
+                    <div class="col-3 d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="card p-4 border-0 rounded-0">
                             <div class="img-card-top">
                                 <img src="../assets/img/drinks-recipes.png" alt="">
                             </div>
@@ -35,8 +35,8 @@ export default {
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="card">
+                    <div class="col-3 d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="card p-4 border-0 rounded-0">
                             <div class="img-card-top">
                                 <img src="../assets/img/drinks-recipes.png" alt="">
                             </div>
@@ -45,8 +45,8 @@ export default {
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="card">
+                    <div class="col-3 d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="card p-4 border-0 rounded-0">
                             <div class="img-card-top">
                                 <img src="../assets/img/drinks-recipes.png" alt="">
                             </div>
@@ -55,8 +55,8 @@ export default {
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="card">
+                    <div class="col-3 d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="card p-4 border-0 rounded-0">
                             <div class="img-card-top">
                                 <img src="../assets/img/drinks-recipes.png" alt="">
                             </div>
@@ -65,8 +65,8 @@ export default {
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="card">
+                    <div class="col-3 d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="card p-4 border-0 rounded-0">
                             <div class="img-card-top">
                                 <img src="../assets/img/drinks-recipes.png" alt="">
                             </div>
@@ -75,8 +75,8 @@ export default {
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="card">
+                    <div class="col-3 d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="card p-4 border-0 rounded-0">
                             <div class="img-card-top">
                                 <img src="../assets/img/drinks-recipes.png" alt="">
                             </div>
@@ -85,8 +85,8 @@ export default {
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="card">
+                    <div class="col-3 d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="card p-4 border-0 rounded-0">
                             <div class="img-card-top">
                                 <img src="../assets/img/drinks-recipes.png" alt="">
                             </div>
@@ -121,15 +121,30 @@ export default {
     }
 }
 
-.card-body {
-    a {
-        color: $food-dark;
+.card {
+    width: 100%;
+
+    img {
+        width: 96px;
+        aspect-ratio: 1 / 1;
     }
 
-    a:hover {
-        background-color: $food-warning;
-        color: white;
+    .card-body {
+        a {
+            color: $food-dark;
+            text-decoration: none;
+        }
 
+        a:hover {
+            background-color: $food-warning;
+            color: white;
+            padding: 1rem 4.5rem;
+
+        }
     }
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 </style>
