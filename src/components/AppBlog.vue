@@ -33,10 +33,10 @@ export default {
             </div>
             <div>
                 <div class="row gx-5">
-                    <div class="col-7">
+                    <div class="col-8">
                         <AppArticles />
                     </div>
-                    <div class="col-5">
+                    <div class="col-4">
                         <AppInteractive />
                     </div>
                 </div>
