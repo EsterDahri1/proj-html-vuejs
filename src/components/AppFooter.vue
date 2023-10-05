@@ -65,8 +65,10 @@ export default {
                         <h6 class="text-uppercase">contact us</h6>
                     </div>
                     <div class="vr"></div>
-                    <div class="col-2">
+                    <div class="col-2 d-flex flex-column">
                         <h6 class="text-uppercase">get our app</h6>
+                        <img class="py-3" src="../assets/img/download-android.png" alt="">
+                        <img class="py-3" src="../assets/img/download-app-store.png" alt="">
                     </div>
                 </div>
             </div>
