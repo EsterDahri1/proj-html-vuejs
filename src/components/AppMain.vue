@@ -1,11 +1,13 @@
 <script>
 import AppJumbo from './AppJumbo.vue';
+import AppJournal from './AppJournal.vue';
 import AppSubscribe from './AppSubscribe.vue';
 import AppBanner from './AppBanner.vue';
 export default {
     name: 'AppMain',
     components: {
         AppJumbo,
+        AppJournal,
         AppSubscribe,
         AppBanner
     }
@@ -14,9 +16,7 @@ export default {
 
 <template>
     <AppJumbo />
-    <section id="journal">
-
-    </section>
+    <AppJournal />
     <section id="popRecipes">
 
     </section>
