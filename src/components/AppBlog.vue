@@ -1,9 +1,11 @@
 <script>
 import AppArticles from './AppArticles.vue';
+import AppInteractive from './AppInteractive.vue';
 export default {
     name: 'AppBlog',
     components: {
-        AppArticles
+        AppArticles,
+        AppInteractive
     }
 }
 </script>
@@ -34,7 +36,9 @@ export default {
                     <div class="col-7">
                         <AppArticles />
                     </div>
-                    <div class="col-5"></div>
+                    <div class="col-5">
+                        <AppInteractive />
+                    </div>
                 </div>
             </div>
         </div>
