@@ -1,6 +1,7 @@
 <script>
 import AppJumbo from './AppJumbo.vue';
 import AppJournal from './AppJournal.vue';
+import AppPopRecipes from './AppPopRecipes.vue';
 import AppSubscribe from './AppSubscribe.vue';
 import AppBanner from './AppBanner.vue';
 export default {
@@ -8,6 +9,7 @@ export default {
     components: {
         AppJumbo,
         AppJournal,
+        AppPopRecipes,
         AppSubscribe,
         AppBanner
     }
@@ -17,9 +19,7 @@ export default {
 <template>
     <AppJumbo />
     <AppJournal />
-    <section id="popRecipes">
-
-    </section>
+    <AppPopRecipes />
     <section id="collection">
 
     </section>
