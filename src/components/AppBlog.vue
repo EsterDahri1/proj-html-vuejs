@@ -1,13 +1,17 @@
 <script>
+import AppArticles from './AppArticles.vue';
 export default {
-    name: 'AppBlog'
+    name: 'AppBlog',
+    components: {
+        AppArticles
+    }
 }
 </script>
 
 <template>
     <section id="blog">
         <div class="container pt-5 pb-5 ps-3 pe-3">
-            <div class="titleDesc row justify-content-between align-items-start">
+            <div class="titleDesc row justify-content-between align-items-start pb-5">
                 <div class="col-6">
                     <h2 class="text-uppercase pb-3">farm to table</h2>
                     <p class="">Aliquam erat volutpat. Ut quis ligula a magna blandit finibus. Suspendisse maximus lacus
@@ -27,7 +31,9 @@ export default {
             </div>
             <div>
                 <div class="row">
-                    <div class="col-7"></div>
+                    <div class="col-7">
+                        <AppArticles />
+                    </div>
                     <div class="col-5"></div>
                 </div>
             </div>
