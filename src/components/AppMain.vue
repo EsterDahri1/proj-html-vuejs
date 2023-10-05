@@ -3,6 +3,7 @@ import AppJumbo from './AppJumbo.vue';
 import AppJournal from './AppJournal.vue';
 import AppPopRecipes from './AppPopRecipes.vue';
 import AppCollection from './AppCollection.vue';
+import AppBlog from './AppBlog.vue';
 import AppSubscribe from './AppSubscribe.vue';
 import AppBanner from './AppBanner.vue';
 export default {
@@ -12,6 +13,7 @@ export default {
         AppJournal,
         AppPopRecipes,
         AppCollection,
+        AppBlog,
         AppSubscribe,
         AppBanner
     }
@@ -23,9 +25,7 @@ export default {
     <AppJournal />
     <AppPopRecipes />
     <AppCollection />
-    <section id="blog">
-
-    </section>
+    <AppBlog />
     <AppSubscribe />
     <AppBanner />
 </template>
