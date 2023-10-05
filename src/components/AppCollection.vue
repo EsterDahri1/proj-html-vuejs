@@ -13,6 +13,91 @@ export default {
                     non nunc lacinia lobortis.
                 </p>
             </div>
+            <div class="collection">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card">
+                            <div class="img-card-top">
+                                <img src="../assets/img/drinks-recipes.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class=" text-uppercase">drinks</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <div class="img-card-top">
+                                <img src="../assets/img/drinks-recipes.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class=" text-uppercase">drinks</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <div class="img-card-top">
+                                <img src="../assets/img/drinks-recipes.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class=" text-uppercase">drinks</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <div class="img-card-top">
+                                <img src="../assets/img/drinks-recipes.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class=" text-uppercase">drinks</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <div class="img-card-top">
+                                <img src="../assets/img/drinks-recipes.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class=" text-uppercase">drinks</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <div class="img-card-top">
+                                <img src="../assets/img/drinks-recipes.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class=" text-uppercase">drinks</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <div class="img-card-top">
+                                <img src="../assets/img/drinks-recipes.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class=" text-uppercase">drinks</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <div class="img-card-top">
+                                <img src="../assets/img/drinks-recipes.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class=" text-uppercase">drinks</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </section>
 </template>
@@ -33,6 +118,18 @@ export default {
     p {
         font-size: 17px;
         color: $food-grey;
+    }
+}
+
+.card-body {
+    a {
+        color: $food-dark;
+    }
+
+    a:hover {
+        background-color: $food-warning;
+        color: white;
+
     }
 }
 </style>
